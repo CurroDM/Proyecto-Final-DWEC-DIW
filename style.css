@@ -112,8 +112,8 @@ h1{
 .pie2 a{text-decoration: none;}
 .pie2 a:hover{color: white;}
 .redes_sociales{vertical-align: middle;}
-
-@media (min-width: 768px) and (max-width: 1199px) {
+/*Versión Tablet*/
+@media (min-width: 650px) and (max-width: 1199px) {
     .localizacion, .calendario, .llama{display: none;}
 
     .pie1{
@@ -130,7 +130,7 @@ h1{
 }
 
 /*versión móvil*/
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .localizacion, .calendario, .llama{display: none;}
     footer{font-size: 70%;}
     .pie1{
