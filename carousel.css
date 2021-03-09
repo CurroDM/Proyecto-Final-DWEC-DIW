@@ -1,0 +1,18 @@
+/*CAROUSEL*/
+.carousel-control-next{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.carousel-control-prev
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+@media (min-width: 575.98px) {.carousel{width: 75%;}}
+@media (max-width: 575.98px) {.carousel-indicators{display: none;}}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .carousel-indicators{display: none;}
+    .carousel{width: 100%;}
+    
+}

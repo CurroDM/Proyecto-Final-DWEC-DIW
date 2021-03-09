@@ -1,0 +1,18 @@
+/*Gestión de citas*/
+.gestion button{
+    color: white;
+    background-color: #8ababf;
+    border: 1px solid #8ababf;
+    margin-bottom: 5%;
+}
+
+.gestion button:hover{
+    color: white;
+    background-color: #406e73;
+    border: 1px solid #406e73;
+}
+.gestion p{
+    color: #406e73;
+    font-size: 17px;
+    text-align: justify;
+}

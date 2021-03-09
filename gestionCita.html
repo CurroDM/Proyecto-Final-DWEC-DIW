@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión cita</title>
+    <link rel="shortcut icon" href="icons/odontologia.png" type="image/x-icon">
+
+    <div id="Bootstrap">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </div>
+      
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gestionCita.css">
+    <script src="iniciosesion.js"></script>
+</head>
+<body>
+  <!--BARRAS DE NAVEGACION-->
+  <header>
+    <div id="nav1"></div>
+    <div id="nav2"></div>
+    <script type="text/javascript" src="Nav&Footer.js"></script>
+  </header>
+    <main> 
+        <div class="row justify-content-center contacto mt-5 ml-4 mr-4">
+            <div class="col-lg-8">
+                <h1>Pide tu cita</h1>
+                <form class="gestion">
+                    <div class="container-fluid text-center text-md-left ">
+                        <div class="col-lg-12">
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-6 ">
+                                        <div class="form-group">
+                                            <p>Nombre</p>
+                                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Indique su nombre" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <p>Email</p>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Indique su email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <p for="exampleFormControlSelect1">Indique su tramo horario</p>
+                                            <select class="form-control" id="exampleFormControlSelect1" required>
+                                                <option>Mañana</option>
+                                                <option>Tarde</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 ">
+                                        <div class="form-group">
+                                            <p>Teléfono</p>
+                                            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Indique su teléfono" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <p>Elegir fecha</p>
+                                            <input type="date" class="form-control" id="date" name="date" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <p for="exampleFormControlSelect1">Indique tipo de cita</p>
+                                            <select class="form-control" id="exampleFormControlSelect1" required>
+                                                <option>Odontología conservadora</option>
+                                                <option>Estética</option>
+                                                <option>Ortodoncia</option>
+                                                <option>Cirujía</option>
+                                                <option>Odontopediatría</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" row">
+                                    <div class="col-md-12 ">
+                                        <div class="form-group">
+                                            <p>Motivo de cita</p>
+                                            <textarea class="form-control" rows="5" id="comentarios" name="comentarios" placeholder="Escriba el mensaje a enviar" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" row">
+                                    <div class="col-md-12 ">
+                                        <p>Le informamos que sus datos personales serán tratados por DENS,
+                                            con el fin de gestionar su solicitud y el mantenimiento de las relaciones profesionales
+                                            y comerciales con usted. Sus datos no serán cedidos a terceros. Esta tratamiento de
+                                            datos es necesario para atender su solicitud. Sus datos serán conservados hasta que
+                                            Usted se dé de baja del servicio y/o pasado un tiempo prudencial desde que atendamos su
+                                            solicitud.
+                                            En cualquier situación, Ud. tiene derecho a presentar una reclamación ante la Agencia
+                                            Española de Protección de Datos (AEPD). </p>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="checkbox1" name="checkbox1" required>
+                                            <label class="form-check-label" for="checkbox1">
+                                            <p>Acepto ley de protección de datos</p> 
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary"> <a href="gestioncitaexito.html"> Solicitar cita</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+   </main>
+    <!--FOOTER-->
+    <footer class="footer text-white font-weight-bold">
+        <div id="footer"></div>
+        <script type="text/javascript" src="Nav&Footer.js"></script>
+      </footer>
+</body>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9388997.js"></script>
+<!-- End of HubSpot Embed Code -->
+</html>

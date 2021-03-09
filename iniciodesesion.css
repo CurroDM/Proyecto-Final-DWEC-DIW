@@ -1,0 +1,58 @@
+form{
+	background-color: #d2e1e2;
+	padding: 2em;
+	border-radius: 1em;
+	margin-bottom: 3em;
+}
+
+label{
+	letter-spacing: 1px;
+	margin-top: 1em;
+}
+
+.enlaces{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.enlaces button{
+	background-color: #406e73;
+	color: white;
+	border: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.enlaces button:hover{
+	background-color: #9bc6ca;
+}
+
+.enlaces a{
+	color: #406e73;
+}
+
+.enlaces a:hover{
+	color: #9bc6ca;
+	text-decoration: none;
+}
+
+#mensaje{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+#mensaje button{
+	background-color: #406e73;
+	color: white;
+	border: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#mensaje button:hover{
+	background-color: #9bc6ca;
+}
+
+#usuario_mensaje{
+	color: #406e73;
+}

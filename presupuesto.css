@@ -1,0 +1,47 @@
+main{
+    margin-bottom: 5em;
+}
+h3{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h5{
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h6{
+    color: #8ababf;
+}
+.tratamientos p{
+    color: white;
+}
+.factura h3{
+    color: black;
+}
+.contenedorGeneral{
+    background-color: #406e73;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow:  5px 0px 30px gray;
+    text-align: justify;
+}
+.row{
+    padding: 1em;
+}
+.col{
+    padding: 1em;
+    border-radius: 2em;
+}
+.factura{
+    background-color: white;
+    box-shadow:  5px 0px 30px #406e73;
+}
+.tratamientos{
+    padding: 2em;
+}
+#listaTratamiento{
+    font-size: larger;
+    margin-top: 1.5em;
+}

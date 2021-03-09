@@ -1,0 +1,157 @@
+/*GENERAL*/
+@keyframes opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes scale{
+    from{font-size: 0;}
+    to{font-size: 100;}
+}
+main{
+    animation-name: opacity;
+    animation-duration: 3s;
+}
+body{ background-color: #f1f5f1;}
+li{list-style: none;}
+a{color: white;}
+
+/*NAVEGADOR 1*/
+.nav1{
+   
+    background-color: #406e73;
+    padding: 0%;
+    font-size: smaller;
+    
+}
+.nav1 a:hover{color: #8ababf;}
+.idiomas{padding-right: 30%;}
+.navbar{
+    
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+/*Dropdown*/
+
+.dropdown-menu {
+    background-color: #406e73;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.dropdown-menu a{
+    color: white;
+}
+.dropdown-menu button{
+    background-color: white;
+    color: #406e73;
+    border: 2px solid #8ababf;
+}
+
+.dropdown-menu button:hover{
+    
+    background-color: #8ababf;
+    border: 2px solid #8ababf;
+    color: #406E73;
+    box-shadow:  2px 2px 10px 5px #8ababf;
+}
+
+.dropdown-menu a:hover{
+    
+    background-color: transparent;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.collapse.show{
+    display: flex;
+}
+/*NAVEGADOR 2*/
+.nav2 .me-auto {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #406e73;
+}
+
+
+/* .nav2 a:hover{color: #406e73;} */
+.nav2{
+    background-color: #8ababf;
+    box-shadow: 1px 3px 10px #406E73;
+    padding: 0;
+}
+h1{
+    animation-name: scale;
+    animation-duration: 1s;
+    color: #406E73;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*FOOTER 1*/
+.pie1{background-color: #8ababf;}
+.pie1 img{border-radius: 10%;}
+
+/*FOOTER 2*/
+.pie2{background-color: #406e73;}
+.pie2 img{
+    margin: 10px;
+    border-radius: 10%;
+}
+.pie2 a{text-decoration: none;}
+.pie2 a:hover{color: white;}
+.redes_sociales{vertical-align: middle;}
+
+/*versión tablet hay que mirarlo!!!!!!!!*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    /*desaparecen imagenes no deseadas en tablet*/
+    .localizacion, .calendario, .llama{display: none;}
+
+    .pie1{
+        font-size: medium;
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
+    .pie2{
+        font-size: smaller;
+    }
+    .nav1 a{
+        font-size: 12px;
+    }
+   
+}
+
+/*versión móvil*/
+@media (max-width: 767px) {
+    /*desaparecen imagenes no deseadas en movil*/
+    .localizacion, .calendario, .llama{display: none;}
+    /*disminuye el tamaño de la letra en el footer*/
+    footer{font-size: 70%;}
+    /*Tamaño de letra y de imagen del pie de pagina 2*/
+    .pie2{font-size: smaller;}
+    .pie2 img{width: 25px;}
+    /*modifica tamaño imagen chat*/
+    .chat img{
+        width: 80px;
+        margin-right: 0;
+    }
+    /*modifica tamaño fuente*/
+    .nav1{
+        font-size: 12px;
+        padding: 0%;
+
+    }
+}
+
+

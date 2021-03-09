@@ -1,0 +1,50 @@
+main{margin-bottom: 50px;}
+
+.texto p
+{
+    color:#707070;
+    text-align: center;
+    font-size: 150%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+hr
+{
+    color: #406e73;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imgs
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*versión tablet hay que mirarlo!!!!!!!!*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    .imgs{
+        display: block;
+    }
+    .imgs img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*versión móvil*/
+@media (max-width: 767px) {
+    .texto p{font-size: smaller;}
+    .imgs{
+        width: 100%;
+        display: block;
+    }
+    .imgs img{
+        width: 100%;
+        height: auto;
+    }
+}
