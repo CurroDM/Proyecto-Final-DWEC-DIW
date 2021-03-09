@@ -25,7 +25,7 @@ hr
     justify-content: space-around;
 }
 
-/*versión tablet hay que mirarlo!!!!!!!!*/
+/*versión tablet*/
 @media (min-width: 768px) and (max-width: 1199px) {
     .imgs{
         display: block;
