@@ -113,15 +113,13 @@ h1{
 .pie2 a:hover{color: white;}
 .redes_sociales{vertical-align: middle;}
 
-/*versión tablet hay que mirarlo!!!!!!!!*/
 @media (min-width: 768px) and (max-width: 1199px) {
-    /*desaparecen imagenes no deseadas en tablet*/
     .localizacion, .calendario, .llama{display: none;}
 
     .pie1{
         font-size: medium;
-        padding-top: 11%;
-        padding-bottom: 11%;
+        padding-top: 5em;
+        padding-bottom: 5em;
     }
     .pie2{
         font-size: smaller;
@@ -129,28 +127,28 @@ h1{
     .nav1 a{
         font-size: 12px;
     }
-   
 }
 
 /*versión móvil*/
 @media (max-width: 767px) {
-    /*desaparecen imagenes no deseadas en movil*/
     .localizacion, .calendario, .llama{display: none;}
-    /*disminuye el tamaño de la letra en el footer*/
     footer{font-size: 70%;}
-    /*Tamaño de letra y de imagen del pie de pagina 2*/
+    .pie1{
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
     .pie2{font-size: smaller;}
     .pie2 img{width: 25px;}
-    /*modifica tamaño imagen chat*/
     .chat img{
         width: 80px;
         margin-right: 0;
     }
-    /*modifica tamaño fuente*/
+    .navbar-expand-lg{
+        padding: 0;
+    }
     .nav1{
         font-size: 12px;
         padding: 0%;
-
     }
 }
 

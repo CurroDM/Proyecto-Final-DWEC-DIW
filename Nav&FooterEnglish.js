@@ -16,39 +16,7 @@ var nav1 = document.getElementById("nav1").innerHTML =
                   '<div class="container-fluid">'+
                     '<a class="nav-link nav-item" href="empleo.html">Job</a>'+
                     '<a class="nav-link nav-item" href="blog.html">Blog</a>'+
-                    '<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">'+
-                      '<span class="navbar-toggler-icon"></span>'+
-                    '</button>'+
-                    '<div class="collapse navbar-collapse" id="dropdown">'+
-                      '<ul class="navbar-nav">'+
-                        '<li class="nav-item dropdown">'+
-                          '<a class="nav-link dropdown-toggle" href="#" id="iniciosesion login-form-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">'+
-                            '<span id = "usuario">Log in</span>'+
-                          '</a>'+
-                          '<div class="dropdown-menu dropdown-menu-left dropdown-menu-right" aria-labelledby="iniciosesion">'+
-                            '<form class="px-4 py-3" id="login-form" role="form" style="display: block;">'+
-                              '<div class="mb-3">'+
-                                '<label for="email" class="form-label">User</label>'+
-                                '<input type="email" class="form-control" id="email" placeholder="email@example.com">'+
-                              '</div>'+
-                              '<div class="mb-3">'+
-                                '<label for="password" class="form-label">Password</label>'+
-                                '<input type="password" class="form-control" id="password" placeholder="Password">'+
-                              '</div>'+
-                              '<div class="mb-3">'+
-                                '<a class="dropdown-item" href="#">Remember password</a>'+
-                              '</div>'+
-                            '</form>'+
-                            '<button type="button" id="botonInicio" onclick="iniciosesion()" class="btn btn-primary">Log in</button>'+
-                            '<button type="button" id="botonCerrar" onclick="cerrarsesion()" class="btn btn-primary" style="display: none;">Close</button>'+
-
-                            '<hr>'+
-                            
-                            '<a class="dropdown-item" id="register-form-link" href="registro/registro.html">Dont have account yet?</a>'+
-                          '</div>'+
-                        '</li>'+
-                      '</ul>'+
-                    '</div>'+
+                    '<a class="nav-link nav-item" href="iniciodesesion.html">Log in</a>'+
                   '</div>'+
                 '</div>'+
             '</div>'+
