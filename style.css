@@ -113,7 +113,7 @@ h1{
 .pie2 a:hover{color: white;}
 .redes_sociales{vertical-align: middle;}
 /*Versión Tablet*/
-@media (min-width: 650px) and (max-width: 1199px) {
+@media (min-width: 650px) and (max-width: 1367px) {
     .localizacion, .calendario, .llama{display: none;}
 
     .pie1{
