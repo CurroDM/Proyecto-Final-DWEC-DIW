@@ -4,10 +4,10 @@ const inputs = document.querySelectorAll('#formulario__1 input');
 const expresiones = {
 	nombre: /^[a-zA-Z]{4,16}$/, // Letras
 	apellido: /^[a-zA-Z\s]{1,40}$/, // Letras y espacios
-	direccion: /^[a-zA-Z\s]{1,40}$/, // Letras, números y espacios
+	direccion: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras, números y espacios
 	cp: /^\d{5,5}$/, // 5 digitos.
-	localidad: /^[a-zA-Z\s]{1,40}$/, // Letras y espacios
-	provincia: /^[a-zA-Z\s]{1,10}$/, // Letras y espacios
+	localidad: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios
+	provincia: /^[a-zA-ZÀ-ÿ\s]{1,10}$/, // Letras y espacios
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.com$/,
 	telefono: /^\d{7,9}$/ // 7 a 14 numeros.
 }
